@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../Magento/Backend/etc/menu.xsd">
+    <menu>
+        <add id="BingHe_MeiJia::parent" title="MeiJia" module="BingHe_MeiJia" sortOrder="100" resource="BingHe_MeiJia::parent"/>
+        <add id="BingHe_MeiJia::index" title="MeiJia Index" module="BingHe_MeiJia" sortOrder="10" action="meijia/index" resource="BingHe_MeiJia::index" parent="BingHe_MeiJia::parent"/>
+		
+    </menu>
+</config>
