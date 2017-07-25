@@ -10,13 +10,10 @@
 		<script src="path/file.js" defer="defer"/>
 		<link src="http://url.com" src_type="url"/>
 		<remove src="path/remove/file.css"/>
-
 		-->
     </head> 
 
     <body>
-
-
         <referenceContainer name="sidebar.main">
             <block class="BingHe\MeiJia\Block\Index\Sidebar" name="meijia_index_sidebar" before="-" template="BingHe_MeiJia::meijia_index_sidebar.phtml"/>
         </referenceContainer>
@@ -24,7 +21,5 @@
         <referenceContainer name="content">
             <block class="BingHe\MeiJia\Block\Index\Index" name="meijia_index_index" template="BingHe_MeiJia::meijia_index_index.phtml"/>
         </referenceContainer>
-
-
     </body>
 </page>
