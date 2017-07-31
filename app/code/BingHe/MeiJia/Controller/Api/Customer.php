@@ -38,8 +38,8 @@ class Customer extends \Magento\Framework\App\Action\Action
 
         // Content
         $response['content'] = [
-            'user_id' => 1,
-            'user_name' => 'MeiJia',
+            'id' => 1,
+            'name' => 'MeiJia',
             'images' => [
                 'http://www.91ljj.com/media/catalog/product/cache/image/1000x1320/e9c3970ab036de70892d86c6d221abfe/d/0/d0001_1.jpg',
                 'http://www.91ljj.com/media/catalog/product/cache/image/1000x1320/e9c3970ab036de70892d86c6d221abfe/c/0/c0009.jpg'
