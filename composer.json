@@ -10,7 +10,8 @@
     "require": {
         "magento/product-community-edition": "2.1.7",
         "composer/composer": "@alpha",
-        "peixinchen/mns": "^1.0"
+        "peixinchen/mns": "^1.0",
+        "overtrue/wechat": "^3.3"
     },
     "require-dev": {
         "phpunit/phpunit": "4.1.0",
