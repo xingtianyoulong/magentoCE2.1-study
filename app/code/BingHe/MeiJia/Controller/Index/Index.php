@@ -6,20 +6,15 @@ class Index extends \Magento\Framework\App\Action\Action
 {
     public function execute()
     {
-        $token = $this->_objectManager->get('BingHe\MeiJia\Helper\Wechat')->getToken();
+        // $url = $this->_objectManager->get('BingHe\MeiJia\Helper\Wechat')->createQrcode();
 
-        var_dump($token);
+        // var_dump($url);
 
-        /**
-        $object_manager = \Magento\Core\Model\ObjectManager::getInstance(); // \Magento\Framework\App\ObjectManager::getInstance();
-        $helper_factory = $object_manager->get('\Magento\Core\Model\Factory\Helper');
-        $helper = $helper_factory->get('\Magento\Core\Helper\Data');
-        */
+        // $bool = $this->_objectManager->get('BingHe\MeiJia\Helper\Mns')->sendMessage('0x0010', 1);
 
-        /**
-        $this->_view->loadLayout();
-        $this->_view->getLayout()->initMessages();
-        $this->_view->renderLayout();
-        */
+        // var_dump($bool);
+
+        // Event Push Validation Response
+        // $this->_objectManager->get('BingHe\MeiJia\Helper\Wechat')->sendValidationResponse();
     }
 }

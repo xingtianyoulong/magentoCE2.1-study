@@ -2,30 +2,16 @@
 
 namespace BingHe\MeiJia\Controller\Api;
 
-use Magento\Framework\App\Action\Context;
-use Magento\Framework\Controller\Result\JsonFactory;
-
 class Customer extends \Magento\Framework\App\Action\Action
 {
     /**
-     * Init
-     * 
-     * @param $context
-     * @param $jsonFactory
+     * Customer Info
      *
-     * @return Void
-     */
-    public function __construct(Context $context, JsonFactory $jsonFactory) {
-        parent::__construct($context);
-        $this->jsonFactory = $jsonFactory;
-    }
-
-    /**
      * @return \Magento\Framework\Controller\Result\Json
      */
     public function execute() {
         // Json Factory
-        $jsonFactory = $this->jsonFactory->create();
+        $jsonFactory = $this->_objectManager->get('Magento\Framework\Controller\Result\JsonFactory')->create();
 
         // Reponse Array
         $response = [];
