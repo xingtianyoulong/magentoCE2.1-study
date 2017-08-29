@@ -13,9 +13,9 @@ use AliyunMNS\Exception\MnsException;
 class Mns extends \Magento\Framework\App\Helper\AbstractHelper
 {
     // Global Params
-    public $endPoint = 'http://1222093724820448.mns.cn-hangzhou.aliyuncs.com/';
-    public $accessId = 'LTAIV3NGP8e0a2Hp';
-    public $accessKey = 'b3as5nuYfAi05wVUE9DwZuMy4MXcef';
+    public $endPoint = '';
+    public $accessId = '';
+    public $accessKey = '';
 
     /**
      * Send Message

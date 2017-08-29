@@ -38,10 +38,10 @@ class Wechat extends \Magento\Framework\App\Helper\AbstractHelper
             /**
              * 账号基本信息，请从微信公众平台/开放平台获取
              */
-            'app_id'  => 'wx5d9a3f74469ba413', // AppID
-            'secret'  => 'ce45ecd31ff056af0975ad1fb4ca8293', // AppSecret
-            'token'   => '91jj', // Token
-            'aes_key' => 'yorsPEkq8ZHhmfcWyIRsMfGckSzMIs0jUWanGo4AJ2O', // EncodingAESKey，安全模式下请一定要填写！！！
+            'app_id'  => '', // AppID
+            'secret'  => '', // AppSecret
+            'token'   => '', // Token
+            'aes_key' => '', // EncodingAESKey，安全模式下请一定要填写！！！
 
             /**
              * 日志配置

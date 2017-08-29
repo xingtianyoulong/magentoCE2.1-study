@@ -8,8 +8,8 @@ namespace BingHe\MeiJia\Helper;
 class Sms extends \Magento\Framework\App\Helper\AbstractHelper
 {
     // Global Params
-    public $username = 'yikevip';
-    public $pwd = 'As045180';
+    public $username = '';
+    public $pwd = '';
 
     /**
      * Send Message
@@ -24,11 +24,11 @@ class Sms extends \Magento\Framework\App\Helper\AbstractHelper
         // 格式化请求参数
         $param = http_build_query(
             array(
-                'account'=>$this->username,
-                'pswd'=>$this->pwd,
-                'mobile'=>$mobile,
-                'msg'=>iconv("UTF-8","UTF-8", $content),
-                'needstatus'=>'true'
+                'account' => $this->username,
+                'pswd' => $this->pwd,
+                'mobile' => $mobile,
+                'msg' => iconv("UTF-8","UTF-8", $content),
+                'needstatus' => 'true'
             )
         );
         
